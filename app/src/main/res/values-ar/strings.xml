@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GhadiDelivery</string>
+    <string name="login">تسجيل</string>
+    <string name="signup">انشاء حساب</string>
+</resources>

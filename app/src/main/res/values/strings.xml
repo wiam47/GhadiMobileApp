@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GhadiDelivery</string>
+    <string name="login">Se connecter</string>
+    <string name="signup">Sinscrire</string>
+    <string name="pass" translatable="false">Mot de passe oublié ?</string>
+</resources>
