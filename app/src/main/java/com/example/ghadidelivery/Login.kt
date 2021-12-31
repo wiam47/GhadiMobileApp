@@ -3,16 +3,16 @@ package com.example.ghadidelivery
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
+class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_login)
 
-        findViewById<Button>(R.id.frenchButton).setOnClickListener {
-            val intent = Intent(this, Login::class.java)
+        val button = findViewById<Button>(R.id.button4)
+        button.setOnClickListener{
+            val intent = Intent(this, SignUp::class.java)
             startActivity(intent)
         }
     }

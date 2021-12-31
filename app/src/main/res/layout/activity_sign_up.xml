@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+android:orientation="vertical"
+tools:context=".SignUp">
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="24dp"
+    android:drawableStart="@drawable/ic_baseline_person_outline_24"
+    android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+    android:drawablePadding="5dp"
+    android:hint="Nom d'utilisateur"
+    android:autofillHints=""
+    android:inputType="textPersonName" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="24dp"
+    android:drawableStart="@drawable/ic_baseline_email_24"
+    android:drawableLeft="@drawable/ic_baseline_email_24"
+    android:drawablePadding="5dp"
+    android:hint="Adresse email"
+    android:autofillHints=""
+    android:inputType="textEmailAddress" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="24dp"
+    android:drawableStart="@drawable/ic_baseline_lock_24"
+    android:drawableLeft="@drawable/ic_baseline_lock_24"
+    android:drawablePadding="5dp"
+    android:hint="Mot de passe"
+    android:autofillHints=""
+    android:inputType="textPassword" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="24dp"
+    android:drawableStart="@drawable/ic_baseline_phone_iphone_24"
+    android:drawableLeft="@drawable/ic_baseline_phone_iphone_24"
+    android:drawablePadding="5dp"
+    android:hint="Numéro de téléphone"
+    android:autofillHints=""
+    android:inputType="phone" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="24dp"
+    android:drawableStart="@drawable/ic_baseline_credit_card_24"
+    android:drawableLeft="@drawable/ic_baseline_credit_card_24"
+    android:drawablePadding="5dp"
+    android:hint="CIN"
+    android:visibility="gone"
+    android:autofillHints=""
+    android:inputType="text"  />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="16dp"
+    android:text="@string/signup"
+    android:textSize="19sp"
+    app:backgroundTint="@color/primaryColor" />
+
+<TextView
+    android:id="@+id/text_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/rem"
+    android:textSize="19sp" />
+
+</LinearLayout>

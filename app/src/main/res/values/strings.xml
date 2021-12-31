@@ -2,5 +2,7 @@
     <string name="app_name">GhadiDelivery</string>
     <string name="login">Se connecter</string>
     <string name="signup">Sinscrire</string>
-    <string name="pass" translatable="false">Mot de passe oublié ?</string>
+    <string name="pass">Mot de passe oublié ?</string>
+    <string name="rem">Inscrivez-vous en tant que chauffeur</string>
+    <string name="CIN">CIN</string>
 </resources>

@@ -3,4 +3,7 @@
     <string name="app_name">GhadiDelivery</string>
     <string name="login">تسجيل</string>
     <string name="signup">انشاء حساب</string>
+    <string name="pass" >كلمة السر</string>
+    <string name="rem">قم بالتسجيل كسائق</string>
+    <string name="CIN" translatable="false" >بطاقة التعريف الوطنية</string>
 </resources>

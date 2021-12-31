@@ -43,10 +43,10 @@
                 android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button2" />
+                app:layout_constraintTop_toBottomOf="@+id/frenchButton" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/frenchButton"
                 android:layout_width="153dp"
                 android:layout_height="52dp"
                 android:layout_marginTop="56dp"
