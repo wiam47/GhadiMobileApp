@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/imageSlide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/titleTxtV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="@string/lorem"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descrTxtV"
+        android:gravity="center"
+        android:text="@string/lorem"
+        android:textColor="@color/light_gray"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textAlignment="gravity"/>
+
+</LinearLayout>
