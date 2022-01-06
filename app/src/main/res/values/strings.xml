@@ -1,8 +1,23 @@
 <resources>
-    <string name="app_name">GhadiDelivery</string>
+    <string name="app_name">Ghadi</string>
     <string name="login">Se connecter</string>
     <string name="signup">Sinscrire</string>
-    <string name="pass">Mot de passe oublié ?</string>
+    <string name="email" translatable="false">Adresse Email</string>
+    <string name="pass" translatable="false">Mot de passe</string>
+    <string name="pass_forgot" translatable="false">Mot de passe oublié ?</string>
     <string name="rem">Inscrivez-vous en tant que chauffeur</string>
     <string name="CIN">CIN</string>
+
+
+    <string name="skip_intro" translatable="false">Skip</string>
+    <string name="next_intro" translatable="false">NEXT ></string>
+    <string name="get_started" translatable="false">Get Started</string>
+    <string name="lorem" translatable="false">Lorem Ipsum</string>
+
+    <string name="slide1_title" translatable="false">Find transportation near you</string>
+    <string name="slide1_descr" translatable="false">Save your time by requesting a transportation that is near you and heading to the same location you want to move your stuff.</string>
+    <string name="slide2_title" translatable="false">Large/Heavy Quantity</string>
+    <string name="slide2_descr" translatable="false">We can deliver luggage of large quantity.. And even heavy ones.</string>
+    <string name="slide3_title" translatable="false">Safe, fast and cheap cost</string>
+    <string name="slide3_descr" translatable="false">Our drivers are trusted so don\'t worry about your stuff. And since they are heading to the same direction, the cost will be cheap.</string>
 </resources>

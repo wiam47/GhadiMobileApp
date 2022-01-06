@@ -6,6 +6,8 @@
     <color name="backgroundFirstScreen">#2A4A9D</color>
     <color name="primaryColor">#3867d6</color>
     <color name="secondaryColor">#3866e6</color>
+    <color name="darkSecondaryColor">#024CFD</color>
     <color name="background">#eee</color>
+    <color name="light_gray">#666</color>
 
 </resources>
